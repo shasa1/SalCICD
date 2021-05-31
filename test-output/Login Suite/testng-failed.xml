@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Suite]">
+  <listeners>
+    <listener class-name="com.bookmyshow.TestScripts.listeners.ScreenshotListener"/>
+  </listeners>
+  <test name="Smoke Test(failed)">
+    <classes>
+      <class name="com.bookmyshow.TestScripts.TestBookingFlow">
+        <methods>
+          <include name="setUp"/>
+          <include name="testBookMovieTickets"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bookmyshow.TestScripts.TestBookingFlow -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Login Suite] -->
