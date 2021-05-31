@@ -51,7 +51,7 @@ public class TestBookingFlow extends GUI_automation_base{
 		
 		//get the title and assert if its correct		
 		String LoginPageTitle = lPage.getTitle();
-		Assert.assertEquals("Pune Movie Tickets Online Booking & Showtimes near you - BookMyShow", LoginPageTitle,"The Login Has failed due to Invalid Credentials");
+		Assert.assertEquals("Pune Movie Tickets Online Booking & Showtimes near you - BookMyShow", LoginPageTitle,"The Login Has failed due to Invalid Credentials - Changed");
 //	
 //		waitexplicitly(3);
 //		
